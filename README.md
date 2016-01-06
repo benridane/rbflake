@@ -22,7 +22,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+require 'rbflake'
+
+b = Rbflake.new
+b.generate
 
 ## Development
 
