@@ -22,10 +22,14 @@ Or install it yourself as:
 
 ## Usage
 
+```ruby
 require 'rbflake'
 
 b = Rbflake.new
 b.generate
+b.generate_times(1000)
+
+```
 
 ## Development
 
